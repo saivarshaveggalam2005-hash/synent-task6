@@ -23,3 +23,8 @@ async function getQuote() {
         console.error(error);
     }
 }
+document.addEventListener("keydown", function(event){
+    if(event.key === "Enter"){
+        getQuote();
+    }
+});
