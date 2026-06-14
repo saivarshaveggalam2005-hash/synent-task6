@@ -78,3 +78,11 @@ button:hover{
 .fade{
     opacity: 0;
 }
+.tag{
+    background:#dbeafe;
+    color:#2563eb;
+    display:inline-block;
+    padding:5px 12px;
+    border-radius:20px;
+    margin-bottom:15px;
+}
