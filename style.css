@@ -71,3 +71,10 @@ button:hover{
         font-size:18px;
     }
 }
+#quote{
+    transition: all 0.4s ease;
+}
+
+.fade{
+    opacity: 0;
+}

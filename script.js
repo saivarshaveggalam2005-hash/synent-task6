@@ -28,3 +28,8 @@ document.addEventListener("keydown", function(event){
         getQuote();
     }
 });
+quote.classList.add("fade");
+
+setTimeout(() => {
+    quote.classList.remove("fade");
+}, 300);
